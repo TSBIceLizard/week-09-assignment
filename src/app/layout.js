@@ -1,14 +1,31 @@
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
+import { Overpass_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+const overpassMono = Overpass_Mono({
+  variable: "--bold",
   subsets: ["latin"],
+  weight: "300",
+});
+const overpassMono2 = Overpass_Mono({
+  variable: "--bold",
+  subsets: ["latin"],
+  weight: "400",
+});
+const overpassMonoBold = Overpass_Mono({
+  variable: "--bold",
+  subsets: ["latin"],
+  weight: "500",
 });
 
 export const metadata = {
