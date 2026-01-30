@@ -1,0 +1,15 @@
+.timeline_figure {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  padding: 2rem;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  margin-left: 12rem;
+  margin-right: 42rem;
+  margin-bottom: 2rem;
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

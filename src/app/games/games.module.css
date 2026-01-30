@@ -1,0 +1,92 @@
+.game_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem;
+  padding: 2rem;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  margin-left: 12rem;
+  margin-right: 48rem;
+}
+
+.game_item {
+  border-style: groove;
+  border-color: darkgoldenrod;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1928px) {
+  .game_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    margin-left: 9rem;
+    margin-right: 36rem;
+  }
+
+  .game_item {
+    border-style: groove;
+    border-color: darkgoldenrod;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1696px) {
+  .game_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 0.875rem;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    margin-left: 6rem;
+    margin-right: 27rem;
+  }
+
+  .game_item {
+    border-style: groove;
+    border-color: darkgoldenrod;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .game_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.75rem;
+    padding: 0.6125rem;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    margin-left: 4rem;
+    margin-right: 21rem;
+  }
+
+  .game_item {
+    border-style: groove;
+    border-color: darkgoldenrod;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .game_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    margin-left: 3rem;
+    margin-right: 16rem;
+  }
+
+  .game_item {
+    border-style: groove;
+    border-color: darkgoldenrod;
+    text-align: center;
+  }
+}

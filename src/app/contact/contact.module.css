@@ -1,0 +1,13 @@
+.contact_us_div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem;
+  padding: 2rem;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  margin-left: 12rem;
+  margin-right: 48rem;
+  h2 {
+    font-size: 3rem;
+  }
+}

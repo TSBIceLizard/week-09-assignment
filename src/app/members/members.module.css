@@ -1,0 +1,20 @@
+.member_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem;
+  padding: 2rem;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  margin-left: 12rem;
+  margin-right: 48rem;
+  div {
+    margin: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.member_item {
+  border-style: groove;
+  border-color: darkgoldenrod;
+  text-align: center;
+}
