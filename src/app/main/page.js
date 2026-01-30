@@ -3,26 +3,26 @@ import Link from "next/link";
 import timelineStyles from "./timeline.module.css";
 
 export default async function MainTimeline() {
-  const queryReviews2 = await db.query(
-    `SELECT * FROM game_reviews ORDER BY id ASC`,
+  const queryPosts = await db.query(
+    `SELECT * FROM neon_posts ORDER BY id DESC`,
   );
   //   const queryGames2 = await db.query(`SELECT * FROM game_title`);
 
   return (
     <>
       <figure>
-        <h2>Recently reviewed titles:</h2>
+        <h2 className={timelineStyles.timeline_title}>Recent blerbs:</h2>
         <div>
-          {queryReviews2.rows.map((queryReview2) => {
+          {queryPosts.rows.map((queryPost) => {
             return (
               <Link
-                key={queryReview2.id}
-                href={`/games/${queryReview2.review_target}`}
+                key={queryPost.id}
+                href={`/games/${queryPost.review_target}`}
               >
                 <figure className={timelineStyles.timeline_figure}>
-                  <h2>{queryReview2.author}&apos;s review (click to expand)</h2>
+                  <h2>{queryPost.author}&apos;s post</h2>
                   <div>
-                    Content: <p>{queryReview2.review_content}</p>
+                    Content: <p>{queryPost.post_content}</p>
                   </div>
                 </figure>
               </Link>

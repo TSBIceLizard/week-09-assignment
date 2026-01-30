@@ -11,5 +11,16 @@
   h2 {
     font-size: 2rem;
     text-align: center;
+    color: gold;
+    text-shadow: 0rem 0rem 1.5rem darkgoldenrod;
   }
+  h2:hover {
+    color: rgb(255, 255, 192);
+    text-shadow: 0rem 0rem 3rem gold;
+  }
+}
+
+.timeline_title {
+  font-size: 2rem;
+  margin-left: 4rem;
 }
