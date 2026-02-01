@@ -23,4 +23,7 @@
 .timeline_title {
   font-size: 2rem;
   margin-left: 4rem;
+  margin-top: 4rem;
+  margin: 1rem;
+  text-align: center;
 }
